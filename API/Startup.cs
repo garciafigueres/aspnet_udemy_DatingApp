@@ -61,7 +61,7 @@ namespace API
 
             // Permitimos orígenes desde nuestra aplicación Angular, en el puerto 4200.
             // Permitiremos cualquier Header y cualquier método.
-            app.UseCors( x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            app.UseCors( x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
 
             app.UseAuthorization();
 
